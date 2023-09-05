@@ -1,7 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
   <!-- HEAD -->
-
   <head>
     <meta charset="utf-8" />
     <meta name="description" content="a studio to promote your business" />
@@ -21,27 +20,33 @@
       rel="stylesheet"
     />
   </head>
-  <!-- BODY -->
-
   <body>
     <!-- Header -->
     <header class="header-block">
       <div class="container header">
-        <!-- Navigation links -->
         <nav class="nav-block">
-          <!-- Logo link -->
-          <a class="logo link" href="./index.html"
+          <a class="logo logo-header link" href="./index.html"
             >Web<span class="logo-part-two">Studio</span></a
           >
-          <ul class="nav list">
+          <ul class="nav list vis-on-tab">
             <li><a class="nav link" href="./index.html">Studio</a></li>
             <li>
               <a class="current nav link" href="./portfolio.html">Portfolio</a>
             </li>
             <li><a class="nav link" href="">Contacts</a></li>
           </ul>
+          <button
+            class="telmode-btn-nav-menu js-open-menu"
+            aria-expanded="false"
+            aria-controls="mobile-menu"
+            type="button"
+          >
+            <svg class="telmode-btn-nav-menu-icon" width="32" height="22">
+              <use href="./images/icons.svg#icon-charm-menu-hamburger"></use>
+            </svg>
+          </button>
         </nav>
-        <address class="nav-address-block">
+        <address class="nav-address-block vis-on-tab">
           <ul class="nav-address list">
             <li>
               <a class="address link" href="mailto:info@devstudio.com">
@@ -62,7 +67,7 @@
       <section class="main-section">
         <div class="container main-portfolio">
           <h1 class="visually-hidden" hidden>Portfolio</h1>
-          <!-- Filter button -->
+
           <ul class="filter-button list">
             <li><button class="all-btn" type="button">All</button></li>
             <li><button class="all-btn" type="button">Web Site</button></li>
@@ -70,14 +75,14 @@
             <li><button class="all-btn" type="button">Design</button></li>
             <li><button class="all-btn" type="button">Marketing</button></li>
           </ul>
-          <!-- Filter button results -->
+
           <ul class="row list">
             <li class="row-item">
               <a class="portfolio-photo-link link" href="">
                 <div class="bestsellers-box">
                   <img
                     class="portfolio-img"
-                    src="./images/img-1.jpg"
+                    src="./images/portfolio/banking_img_1.jpg"
                     alt="Banking App Interface Concept"
                     width="360"
                     height="300"
@@ -101,7 +106,7 @@
                 <div class="bestsellers-box">
                   <img
                     class="portfolio-img"
-                    src="./images/img-2.jpg"
+                    src="./images/portfolio/cashless_img_2.jpg"
                     alt="Cashless Payment"
                     width="360"
                     height="300"
@@ -123,7 +128,7 @@
                 <div class="bestsellers-box">
                   <img
                     class="portfolio-img"
-                    src="./images/img-3.jpg"
+                    src="./images/portfolio/meditation_img_3.jpg"
                     alt="Meditation App"
                     width="360"
                     height="300"
@@ -145,7 +150,7 @@
                 <div class="bestsellers-box">
                   <img
                     class="portfolio-img"
-                    src="./images/img-4.jpg"
+                    src="./images/portfolio/taxi_img_4.jpg"
                     alt="Taxi Service"
                     width="360"
                     height="300"
@@ -167,7 +172,7 @@
                 <div class="bestsellers-box">
                   <img
                     class="portfolio-img"
-                    src="./images/img-5.jpg"
+                    src="./images/portfolio/screen_img_5.jpg"
                     alt="Screen Illustrations"
                     width="360"
                     height="300"
@@ -189,7 +194,7 @@
                 <div class="bestsellers-box">
                   <img
                     class="portfolio-img"
-                    src="./images/img-6.jpg"
+                    src="./images/portfolio/online_img_6.jpg"
                     alt="Online Courses"
                     width="360"
                     height="300"
@@ -211,7 +216,7 @@
                 <div class="bestsellers-box">
                   <img
                     class="portfolio-img"
-                    src="./images/img-7.jpg"
+                    src="./images/portfolio/instagram_img_7.jpg"
                     alt="Instagram Stories Concept"
                     width="360"
                     height="300"
@@ -235,7 +240,7 @@
                 <div class="bestsellers-box">
                   <img
                     class="portfolio-img"
-                    src="./images/img-8.jpg"
+                    src="./images/portfolio/organic_img_8.jpg"
                     alt="Organic Food"
                     width="360"
                     height="300"
@@ -257,7 +262,7 @@
                 <div class="bestsellers-box">
                   <img
                     class="portfolio-img"
-                    src="./images/img-9.jpg"
+                    src="./images/portfolio/fresh_coffee_img_9.jpg"
                     alt="Fresh Coffee"
                     width="360"
                     height="300"
@@ -279,51 +284,51 @@
       </section>
     </main>
     <!-- Footer content -->
-    <footer class="footer-section">
-      <div class="container footer">
-        <!-- Logo link -->
-        <div class="footer-content">
-          <a class="logo-footer link" href="./index.html"
-            >Web<span class="footer-logo-part-two">Studio</span></a
-          >
-          <!-- Footer text -->
-          <p class="footer-text">
-            Increase the flow of customers and sales for your business with
-            digital marketing & growth solutions.
-          </p>
-        </div>
-        <div class="social-media-box">
-          <p class="social-media-subtitle">Social media</p>
-          <ul class="social-media-list list">
-            <li class="social-media-item">
-              <a class="social-media-icon-link" href="">
-                <svg class="social-icon" width="24" height="24">
-                  <use href="./images/icons.svg#icon-instagram"></use>
-                </svg>
-              </a>
-            </li>
-            <li class="social-media-item">
-              <a class="social-media-icon-link" href="">
-                <svg class="social-icon" width="24" height="24">
-                  <use href="./images/icons.svg#icon-twitter"></use>
-                </svg>
-              </a>
-            </li>
-            <li class="social-media-item">
-              <a class="social-media-icon-link" href="">
-                <svg class="social-icon" width="24" height="24">
-                  <use href="./images/icons.svg#icon-facebook"></use>
-                </svg>
-              </a>
-            </li>
-            <li class="social-media-item">
-              <a class="social-media-icon-link" href="">
-                <svg class="social-icon" width="24" height="24">
-                  <use href="./images/icons.svg#icon-linkedin"></use>
-                </svg>
-              </a>
-            </li>
-          </ul>
+    <footer class="footer">
+      <div class="footer-container container">
+        <div class="footer-box">
+          <div class="footer-container-text">
+            <a class="logo logo-footer-web link" href="./index.html"
+              >Web<span class="logo-footer">Studio</span></a
+            >
+            <p class="footer-text">
+              Increase the flow of customers and sales for your business with
+              digital marketing & growth solutions.
+            </p>
+          </div>
+          <div class="footer-container-social">
+            <p class="footer-social-item">Social media</p>
+            <ul class="logo-icon">
+              <li class="list">
+                <a class="logo-icon-list" href="">
+                  <svg class="fotter-svg" width="24" height="24">
+                    <use href="./images/icons.svg#icon-instagram"></use>
+                  </svg>
+                </a>
+              </li>
+              <li class="list">
+                <a class="logo-icon-list" href="">
+                  <svg class="fotter-svg" width="24" height="24">
+                    <use href="./images/icons.svg#icon-twitter"></use>
+                  </svg>
+                </a>
+              </li>
+              <li class="list">
+                <a class="logo-icon-list" href="">
+                  <svg class="fotter-svg" width="24" height="24">
+                    <use href="./images/icons.svg#icon-facebook"></use>
+                  </svg>
+                </a>
+              </li>
+              <li class="list">
+                <a class="logo-icon-list" href="">
+                  <svg class="fotter-svg" width="24" height="24">
+                    <use href="./images/icons.svg#icon-linkedinfooter"></use>
+                  </svg>
+                </a>
+              </li>
+            </ul>
+          </div>
         </div>
         <div class="footer-container-subsckribe">
           <p class="subsckribe-item">Subscribe</p>
@@ -339,12 +344,89 @@
             <button class="button footer-button" type="submit">
               Subscribe
               <svg class="footer-button-icon" width="24" height="24">
-                <use href="./images/icons.svg#icon-Frame-3"></use>
+                <use href="./images/icons.svg#icon-frame-footer"></use>
               </svg>
             </button>
           </form>
         </div>
       </div>
     </footer>
+    <!-- MODAL MENU -->
+    <div class="menu-modal js-menu-container" id="mobile-menu">
+      <div class="mobile-menu-container">
+        <div class="high-part">
+          <button class="modal-btn menu-toggle js-close-menu" type="button">
+            <svg class="logo-icon-modal-close-btn" width="8" height="8">
+              <use href="./images/icons.svg#icon-close-black-18dp1"></use>
+            </svg>
+          </button>
+          <nav>
+            <ul class="mobile-menu-nav list">
+              <li class="mobile-menu-nav-item">
+                <a class="menu-nav link" href="./index.html">Studio</a>
+              </li>
+              <li class="mobile-menu-nav-item">
+                <a class="current menu-nav link" href="./portfolio.html"
+                  >Portfolio</a
+                >
+              </li>
+              <li class="mobile-menu-nav-item">
+                <a class="menu-nav link" href="">Contacts</a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+        <div class="low-part">
+          <a class="mobile-menu-tel link" href="tel:+110001111111"
+            >+11 (000) 111-11-11</a
+          >
+          <a class="mobile-menu-email link" href="mailto:info@devstudio.com">
+            info@devstudio.com</a
+          >
+          <div class="mobile-menu-icon-block">
+            <ul class="mobile-menu-icon-list list">
+              <li class="mobile-menu-item">
+                <a
+                  class="mobile-menu-icon-link"
+                  href="https://www.instagram.com/"
+                >
+                  <svg class="icon-social" width="16" height="16">
+                    <use href="./images/icons.svg#icon-instagram"></use>
+                  </svg>
+                </a>
+              </li>
+              <li class="mobile-menu-item">
+                <a class="mobile-menu-icon-link" href="https://twitter.com/">
+                  <svg class="icon-social" width="16" height="16">
+                    <use href="./images/icons.svg#icon-twitter"></use>
+                  </svg>
+                </a>
+              </li>
+              <li class="mobile-menu-item">
+                <a
+                  class="mobile-menu-icon-link"
+                  href="https://www.facebook.com/"
+                >
+                  <svg class="icon-social" width="16" height="16">
+                    <use href="./images/icons.svg#icon-facebook"></use>
+                  </svg>
+                </a>
+              </li>
+              <li class="mobile-menu-item">
+                <a
+                  class="mobile-menu-icon-link"
+                  href="https://www.linkedin.com/"
+                >
+                  <svg class="icon-social" width="16" height="16">
+                    <use href="./images/icons.svg#icon-linkedinfooter"></use>
+                  </svg>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="./js/modal.js"></script>
   </body>
 </html>
